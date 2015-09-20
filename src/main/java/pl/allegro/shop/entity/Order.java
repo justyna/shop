@@ -21,7 +21,7 @@ public class Order {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private long id;
     private final List<OrderLine> orderLines = new ArrayList<OrderLine>();
-    private final Customer customer;
+   // private final Customer customer;
     private Address shippingAddress;
     private Price totalAmount;
 }

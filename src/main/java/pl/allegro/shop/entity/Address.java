@@ -11,10 +11,20 @@ import javax.persistence.Id;
 @Entity
 public class Address {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String street;
     private Integer number;
-    private String city;
+    private  String city;
 
+    public Address(long id, String street, Integer number, String city) {
+        this.id = id;
+        this.street = street;
+        this.number = number;
+        this.city = city;
+    }
+
+    protected Address(){
+
+    }
 }

@@ -15,4 +15,6 @@ public class Customer {
     private long id;
     String firstname;
     String secondname;
+
+
 }
