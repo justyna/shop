@@ -6,7 +6,5 @@ package pl.allegro.shop.domain;
 public class Customer {
     String firstname;
     String secondname;
-    private String street;
-    private Integer number;
-    private String city;
+    Address address;
 }

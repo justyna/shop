@@ -17,15 +17,15 @@ public class OrderLine {
     private long id;
     private final String productId;
     private final String productName;
-    private final Price itemPrice;
-    private final Price totalPrice;
+   // private final Price itemPrice;
+    //private final Price totalPrice;
     private final int amount;
 
     public OrderLine(String productId, String productName, Price itemPrice, Price totalPrice, int amount) {
         this.productId = productId;
         this.productName = productName;
-        this.itemPrice = itemPrice;
-        this.totalPrice = totalPrice;
+        //this.itemPrice = itemPrice;
+        //this.totalPrice = totalPrice;
         this.amount = amount;
     }
 }
